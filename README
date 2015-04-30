@@ -1,0 +1,38 @@
+
+    assistor is an application tool for users to
+    request technical support, it can get the
+    technical supporter's contact infomation.
+===============================================================
+
+1. Installation
+    - Decompress the package
+        mkdir -p your_desired_directory
+        tar zxvf assistor.tar.gz -C your_desired_derectory
+    - Configure to generate Makefile
+        ./configure
+        Or if you want to install the binary file in other place,
+        you should run configure script with
+        --prefix = other_place. For example, to install assistor
+        to /usr/local/bin, the command is:
+        ./configure --prefix=/usr/local/bin
+
+    - Compile the source code
+        make
+
+    - Install the binary file. If you ignore the --prefix=... when
+      run configure, the default install destination is /usr/bin.
+        make install 
+
+2. Usage
+    As assistor is an auxiliary tool for users to request technical
+    support, it is distributed with ...
+
+    - Firstly, modify the server IP address properly according to the
+      the IP address your technical supporter provides to you.
+
+    - Sencondly, fill in the user name and password, additionally the
+      question you confronted, then click request button.
+
+    You can also change the password by clicking the change password
+    button, and filling in the corresponding info.
+        

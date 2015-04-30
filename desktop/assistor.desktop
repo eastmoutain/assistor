@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=6.2
+Name=assistor
+#Name=虚拟桌面
+Type=Application
+Exec=assistor %U
+TryExec=assistor
+Icon=/usr/share/assistor/pixmaps/assistor.png
+Categories=Application;System;X-MandrivaLinux-System;
+Comment=connect to the remote technical support
+#Comment=连接到远程虚拟桌面
+Name[zh_CN]=远程协助客户端
